@@ -3,18 +3,18 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.qmetry</groupId>
-  <artifactId>qmetry-test-management-maven-plugin</artifactId>
-  <version>1.0.4</version>
+  <artifactId>qmetry.qas.customSteps</artifactId>
+  <version>1.0.5</version>
   <packaging>jar</packaging>
 
-  <name>Maven Integration - QMetry Test Management</name>
-  <description>This add-on has been designed to seamlessly integrate your Continuous Integration plan with QMetry.
-        Configure pom.xml file to submit your test results to QMetry without writing any code or dealing with REST API.</description>
+  <name>Custom Step Library - QMetry Automation Studio</name>
+  <description>This custom step library has been designed to provide some desired methods to user so that they can execute thei
+  test cases more easily with less code</description>
   <url>http://www.qmetry.com</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	<github.global.server>github</github.global.server>
+	<github.global.server>internal.repo</github.global.server>
 		<qaf.version>2.1.14</qaf.version>
 		<qaf.support.version>2.1.14-RC1</qaf.support.version>
 		<qaf.support.ws.version>2.1.14-RC1</qaf.support.ws.version>
@@ -143,8 +143,8 @@
                 <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory> 
                 <branch>refs/heads/mvn-repo</branch>                       
                 <includes><include>**/*</include></includes>
-                <repositoryName>qmetry-test-management-maven-plugin</repositoryName>      
-                <repositoryOwner>qmetry</repositoryOwner>    
+                <repositoryName>custumLibraryTest</repositoryName>      
+                <repositoryOwner>Kumar21</repositoryOwner>    
             </configuration>
             <executions>
               <execution>
