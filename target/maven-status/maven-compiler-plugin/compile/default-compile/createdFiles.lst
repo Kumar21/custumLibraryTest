@@ -1,2 +1,2 @@
-com\qmetry\qas\customSteps\QASLib.class
-com\qmetry\qas\customSteps\QASSteps.class
+com\qmetry\qaf\automation\step\QASLib.class
+com\qmetry\qaf\automation\step\QASSteps.class
